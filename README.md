@@ -1,6 +1,8 @@
 # Earthquake World Map
 
-This project is part of an online course offered through Coursera [[1]](#references). All parsing codes had been provided by the instructors. XML data of earthquake feed are first parsed. The data is then used to create two types of graphical markers on the map. The type of the marker depends on whether the earthquake occurred on land (circle) or in the ocean (square). The size of the markers depends on the magnitudes of the earthquakes. Different colors are used for different ranges of earthquake depth. Additionally, a set of markers are also used to denote the major cities of the world. The city data was parsed from a JSON data source.
+This project is part of an online course offered through Coursera [[1]](#references). The completed code is in `module6` folder.
+
+XML data of earthquake feed are first parsed. The data is then used to create two types of graphical markers on the map. The type of the marker depends on whether the earthquake occurred on land (circle) or in the ocean (square). The size of the markers depends on the magnitudes of the earthquakes. Different colors are used for different ranges of earthquake depth. Additionally, a set of markers are also used to denote the major cities of the world. The city data was parsed from a JSON data source.
 
 The map is interactive. Placing the mouse cursor over the city or earthquake markers show details like city name, earthquake title, magnitude, etc. Moreover, if you click on a particular earthquake marker, then only the city markers within the threat radius of this earthquake will be shown on the map (all other markers will be hidden). Similarly, clicking on a city marker shows only those earthquakes that pose a threat to the particular city. A rough calculation of the threat radius uses the magnitude of the earthquake. Finally, hovering mouse over an earthquake will show its threat radius.
 
